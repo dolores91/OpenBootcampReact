@@ -1,3 +1,27 @@
+# En container van la logica y los datos
+# Los greetings son ejemplos de componentes de clase y funcionales
+# app renderiza a task y este renderiza a task_list: jerarquia app task_list y task?
+# en el package.json estan los scripts que puedo usar en la terminal y tmb se pueden cambiar:
+ "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+
+# .editconfig 
+estableces ciertas caracteristicas para el IDE    
+
+# sass 
+npm i ---save node-sass
+index.css es generico y se usa en toda la app, esta importado en index.js y se heredara a menos que los componente tengan estilos especificos que lo pisen.
+modularizado: crear el esachivo de estidos, importarlo y agragar las className en las etiquetas
+
+# estilos en constantes: greetingsStyles
+# boostrap 
+npm i boostrap -- save y lo impostamos en el index.js (arriba del index.css para q pise) import 'boostrap/dist/css/boostrap.css'
+npm install bootstrap-icons --save
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
